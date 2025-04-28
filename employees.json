@@ -2,7 +2,46 @@
   {
     "name": "Danny Orr",
     "positions": [ "grill", "back room", "window" ],
-    "role": "crew member"
+    "role": "crew member",
+    "schedule": {
+      "04.28.25": {
+        "Monday": {
+          "position": "window",
+          "start_time": "16:00",
+          "end_time": "19:00"
+        },
+        "Tuesday": {
+          "position": "null",
+          "start_time": "null",
+          "end_time": "null"
+        },
+        "Wednesday": {
+          "position": "null",
+          "start_time": "null",
+          "end_time": "null"
+        },
+        "Thursday": {
+          "position": "null",
+          "start_time": "null",
+          "end_time": "null"
+        },
+        "Friday": {
+          "position": "null",
+          "start_time": "null",
+          "end_time": "null"
+        },
+        "Saturday": {
+          "position": "null",
+          "start_time": "null",
+          "end_time": "null"
+        },
+        "Sunday": {
+          "position": "null",
+          "start_time": "null",
+          "end_time": "null"
+        }
+      }
+    }
   },
   {
     "name": "Isiah Macias",

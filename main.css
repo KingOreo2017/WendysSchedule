@@ -97,3 +97,107 @@ main {
         margin-top: 10px;
     }
 }
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+    header h1 {
+        margin-bottom: 10px;
+    }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+/* Main Content */
+main {
+    flex: 1;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Schedule Grid */
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Schedule Header */
+.schedule-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Schedule Row */
+.schedule-row {
+    display: contents;
+}
+
+.schedule-cell {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.swap-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .swap-button:hover {
+        background-color: #218838;
+    }
+
+/* Total Hours Display */
+.total-hours {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .schedule-grid {
+        grid-template-columns: 1fr; /* Stack all columns into one */
+    }
+}

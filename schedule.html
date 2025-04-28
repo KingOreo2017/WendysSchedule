@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="schedule.js" defer></script>
+    <title>Schedule System</title>
+</head>
+<body>
+
+    <header>
+        <h1>Schedule System</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Swap Shifts</a>
+            <a href="#">Request Time Off</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Schedule Grid Layout -->
+        <div class="schedule-grid">
+            <!-- Header Row -->
+            <div class="schedule-header">Day</div>
+            <div class="schedule-header">Time</div>
+            <div class="schedule-header">Position</div>
+            <div class="schedule-header">Actions</div>
+
+            <!-- Schedule Rows (Hardcoded for all days) -->
+            <div class="schedule-row">
+                <div class="schedule-cell">Monday</div>
+                <div class="schedule-cell" id="monday-time">Off</div>
+                <div class="schedule-cell" id="monday-position">Off</div>
+                <div class="schedule-cell">
+                    <button class="swap-button" id="monday-swap">Swap Shift</button>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="schedule-cell">Tuesday</div>
+                <div class="schedule-cell" id="tuesday-time">Off</div>
+                <div class="schedule-cell" id="tuesday-position">Off</div>
+                <div class="schedule-cell">
+                    <button class="swap-button" id="tuesday-swap">Swap Shift</button>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="schedule-cell">Wednesday</div>
+                <div class="schedule-cell" id="wednesday-time">Off</div>
+                <div class="schedule-cell" id="wednesday-position">Off</div>
+                <div class="schedule-cell">
+                    <button class="swap-button" id="wednesday-swap">Swap Shift</button>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="schedule-cell">Thursday</div>
+                <div class="schedule-cell" id="thursday-time">Off</div>
+                <div class="schedule-cell" id="thursday-position">Off</div>
+                <div class="schedule-cell">
+                    <button class="swap-button" id="thursday-swap">Swap Shift</button>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="schedule-cell">Friday</div>
+                <div class="schedule-cell" id="friday-time">Off</div>
+                <div class="schedule-cell" id="friday-position">Off</div>
+                <div class="schedule-cell">
+                    <button class="swap-button" id="friday-swap">Swap Shift</button>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="schedule-cell">Saturday</div>
+                <div class="schedule-cell" id="saturday-time">Off</div>
+                <div class="schedule-cell" id="saturday-position">Off</div>
+                <div class="schedule-cell">
+                    <button class="swap-button" id="saturday-swap">Swap Shift</button>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="schedule-cell">Sunday</div>
+                <div class="schedule-cell" id="sunday-time">Off</div>
+                <div class="schedule-cell" id="sunday-position">Off</div>
+                <div class="schedule-cell">
+                    <button class="swap-button" id="sunday-swap">Swap Shift</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Total Hours Display -->
+        <div class="total-hours" id="total-hours">
+            Total Hours: 0
+        </div>
+    </main>
+
+</body>
+</html>
