@@ -70,7 +70,7 @@ main {
 
 .image-container {
     flex: 1 1 45%;
-    max-width: 600px;
+    max-width: 1000px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
