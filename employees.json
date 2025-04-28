@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Danny Orr",
+    "positions": [ "grill", "back room", "window" ],
+    "role": "crew member"
+  },
+  {
+    "name": "Isiah Macias",
+    "positions": [ "grill", "back room", "window", "coordinating", "fries" ],
+    "role": "crew leader"
+  },
+  {
+    "name": "Angel Fries",
+    "positions": [ "window", "fries" ],
+    "role": "crew member"
+  }
+]
